@@ -1,23 +1,94 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
 body {
-    background-color: #bbb;
-    margin: 0;
+  background-color: #dbdbdb;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .overlay {
-    z-index:50;
-    position: fixed;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    background-color:rgba(0,0,0,0.5);
+  z-index: 50;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup {
-    z-index:100;
-    position: fixed;
-    top:200px;
-    left:200px;
-    right:200px;
-    background-color:white
+  z-index: 100;
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  right: 200px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header p {
+  background-color: black;
+  color: #dbdbdb;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 1);
+}
+.header button {
+  background-color: black;
+  color: #dbdbdb;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 15px 0px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.project-1 {
+  border-top: 2px solid black;
+  padding: 20px;
+}
+
+.flex-title {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.project-1:hover .flex-title {
+  display: block;
+  white-space: normal;
+}
+
+.project-1:hover .text {
+  display: block;
+}
+.project-1:hover img {
+  display: block;
+}
+.project-1 p {
+  font-size: 30px;
+}
+
+.project-1 .italics {
+  font-family: Times, "Times New Roman", serif;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.project-1 .text {
+  padding-top: 10px;
+  font-size: 15px;
+  display: none;
+}
+.project-1 img {
+  display: none;
 }
