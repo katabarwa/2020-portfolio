@@ -54,7 +54,7 @@ body {
 
 .project-1 {
   border-top: 2px solid black;
-  padding: 20px;
+  padding: 10px;
 }
 
 .flex-title {
@@ -91,4 +91,87 @@ body {
 }
 .project-1 img {
   display: none;
+}
+
+.project-2 {
+  border-top: 2px solid black;
+  padding: 10px;
+}
+
+.project-2:hover .flex-title {
+  display: block;
+  white-space: normal;
+}
+
+.project-2:hover .text {
+  display: block;
+}
+.project-2:hover img {
+  display: block;
+}
+.project-2 p {
+  font-size: 30px;
+}
+
+.project-2 .italics {
+  font-family: Times, "Times New Roman", serif;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.project-2 .text {
+  padding-top: 10px;
+  font-size: 15px;
+  display: none;
+}
+.project-2 img {
+  display: none;
+}
+
+.flex-imgs {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+}
+.project-2 img {
+  margin-right: 10px;
+}
+
+.project-3 {
+  border-top: 2px solid black;
+  padding: 10px;
+}
+
+.project-3:hover .flex-title {
+  display: block;
+  white-space: normal;
+}
+
+.project-3:hover .text {
+  display: block;
+}
+.project-3:hover img {
+  display: block;
+}
+.project-3 p {
+  font-size: 30px;
+}
+
+.project-3 .italics {
+  font-family: Times, "Times New Roman", serif;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.project-3 .text {
+  padding-top: 10px;
+  font-size: 15px;
+  display: none;
+}
+.project-3 img {
+  display: none;
+}
+
+.project-3 img {
+  margin-right: 10px;
 }
