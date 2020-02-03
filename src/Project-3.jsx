@@ -8,7 +8,7 @@ class Project3 extends Component {
         to={"/project3/"}
         style={{ textDecoration: "none", color: "black" }}
       >
-        <div className="project-3">
+        <div className="projects">
           <div className="flex-title">
             <p>SSENSE SSPHERE</p>
             <p className="italics">Poster Design for International Panel</p>

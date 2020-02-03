@@ -14,24 +14,28 @@ class App extends Component {
     return (
       <>
         <Header />
-        <div className="project-1">
+        <div className="projects">
           <div className="block-title">
             <p>DIASPHORA</p>
             <p className="italics">Triptych on Diasporic Identities</p>
           </div>
-          <img width="100%" src="/diasphora.png" />
-          <p className="text">
-            diasphora (adj.) diaspora + dyphoria The unease or feeling of having
-            no sense of home; forever displaced, forever the other, without any
-            sense of self; a blurred identity, a dismantling of the body.
-            <br />
-            Diasphora is a research project in exploring the ways that black and
-            east asian identities are interpolated by mainstream narratives. The
-            project represents the essential gap between these narratives and
-            the realms of personal experience, emphasizing the hegemonic gaze
-            upon othered bodies. The gaze becomes a spectacle within itself at
-            the same time that the gaze is physically imposed upon the viewer.
-          </p>
+          <div>
+            <img width="100%" src="/diasphora.png" />
+            <p className="text">
+              diasphora (adj.) diaspora + dyphoria The unease or feeling of
+              having no sense of home; forever displaced, forever the other,
+              without any sense of self; a blurred identity, a dismantling of
+              the body.
+              <br />
+              Diasphora is a research project in exploring the ways that black
+              and east asian identities are interpolated by mainstream
+              narratives. The project represents the essential gap between these
+              narratives and the realms of personal experience, emphasizing the
+              hegemonic gaze upon othered bodies. The gaze becomes a spectacle
+              within itself at the same time that the gaze is physically imposed
+              upon the viewer.
+            </p>
+          </div>
         </div>
         <Project2 />
         <Project3 />
@@ -44,7 +48,7 @@ class App extends Component {
       <>
         <Header />
         <Project1 />
-        <div className="project-2">
+        <div className="projects">
           <div className="block-title">
             <p>NEW PATH – ESSAIE PAS</p>
             <p className="italics">
@@ -68,7 +72,7 @@ class App extends Component {
         <Header />
         <Project1 />
         <Project2 />
-        <div className="project-3">
+        <div className="projects">
           <div className="block-title">
             <p>SSENSE SSPHERE</p>
             <p className="italics">Poster Design for International Panel</p>

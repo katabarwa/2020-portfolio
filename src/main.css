@@ -52,7 +52,7 @@ body {
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 1);
 }
 
-.project-1 {
+.projects {
   border-top: 2px solid black;
   padding: 10px;
 }
@@ -76,48 +76,17 @@ body {
 .project-1:hover img {
   display: block;
 } */
-.project-1 p {
+.projects p {
   font-size: 30px;
 }
 
-.project-1 .italics {
+.projects .italics {
   font-family: Times, "Times New Roman", serif;
   font-style: italic;
   padding-left: 20px;
 }
 
-.project-1 .text {
-  padding-top: 10px;
-  font-size: 15px;
-}
-
-.project-2 {
-  border-top: 2px solid black;
-  padding: 10px;
-}
-
-/* .project-2:hover .flex-title {
-  display: block;
-  white-space: normal;
-}
-
-.project-2:hover .text {
-  display: block;
-}
-.project-2:hover img {
-  display: block;
-} */
-.project-2 p {
-  font-size: 30px;
-}
-
-.project-2 .italics {
-  font-family: Times, "Times New Roman", serif;
-  font-style: italic;
-  padding-left: 20px;
-}
-
-.project-2 .text {
+.projects .text {
   padding-top: 10px;
   font-size: 15px;
 }
@@ -127,41 +96,6 @@ body {
   overflow-x: scroll;
   align-items: center;
 }
-.project-2 img {
-  margin-right: 10px;
-}
 
-.project-3 {
-  border-top: 2px solid black;
-  padding: 10px;
-}
-
-/* .project-3:hover .flex-title {
-  display: block;
-  white-space: normal;
-} */
-
-/* .project-3:hover .text {
-  display: block;
-}
-.project-3:hover img {
-  display: block;
-} */
-.project-3 p {
-  font-size: 30px;
-}
-
-.project-3 .italics {
-  font-family: Times, "Times New Roman", serif;
-  font-style: italic;
-  padding-left: 20px;
-}
-
-.project-3 .text {
-  padding-top: 10px;
-  font-size: 15px;
-}
-
-.project-3 img {
-  margin-right: 10px;
+@media only screen and (min-width: 840px) {
 }
