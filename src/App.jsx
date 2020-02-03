@@ -18,14 +18,12 @@ class App extends Component {
           <div className="block-title">
             <p>DIASPHORA</p>
             <p className="italics">Triptych on Diasporic Identities</p>
-          </div>
-          <div>
-            <img width="100%" src="/diasphora.png" />
             <p className="text">
               diasphora (adj.) diaspora + dyphoria The unease or feeling of
               having no sense of home; forever displaced, forever the other,
               without any sense of self; a blurred identity, a dismantling of
               the body.
+              <br />
               <br />
               Diasphora is a research project in exploring the ways that black
               and east asian identities are interpolated by mainstream
@@ -35,6 +33,9 @@ class App extends Component {
               within itself at the same time that the gaze is physically imposed
               upon the viewer.
             </p>
+          </div>
+          <div className="flex-imgs">
+            <img width="100%" src="/diasphora.png" />
           </div>
         </div>
         <Project2 />
@@ -77,7 +78,9 @@ class App extends Component {
             <p>SSENSE SSPHERE</p>
             <p className="italics">Poster Design for International Panel</p>
           </div>
-          <img width="100%" src="/ssphere.jpg" />
+          <div className="flex-imgs">
+            <img width="100%" src="/ssphere.jpg" />
+          </div>
         </div>
       </>
     );

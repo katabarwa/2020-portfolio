@@ -97,5 +97,21 @@ body {
   align-items: center;
 }
 
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 900px) {
+  .projects {
+    display: flex;
+  }
+  .projects .text {
+    width: 80%;
+  }
+  .block-title {
+    width: 100%;
+  }
+  .flex-imgs {
+    width: 100%;
+  }
+  .flex-title {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
