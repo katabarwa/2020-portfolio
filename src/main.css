@@ -62,7 +62,9 @@ body {
   overflow-x: scroll;
   white-space: nowrap;
 }
-
+.block-title {
+  display: block;
+}
 /* .project-1:hover .flex-title {
   display: block;
   white-space: normal;

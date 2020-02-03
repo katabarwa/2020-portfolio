@@ -4,6 +4,7 @@ import HomeScreen from "./HomeScreen.jsx";
 import Header from "./Header.jsx";
 import Project1 from "./Project-1.jsx";
 import Project2 from "./Project-2.jsx";
+import Project3 from "./Project-3.jsx";
 
 class App extends Component {
   renderHomeScreen = () => {
@@ -14,7 +15,7 @@ class App extends Component {
       <>
         <Header />
         <div className="project-1">
-          <div className="flex-title">
+          <div className="block-title">
             <p>DIASPHORA</p>
             <p className="italics">Triptych on Diasporic Identities</p>
           </div>
@@ -33,13 +34,7 @@ class App extends Component {
           </p>
         </div>
         <Project2 />
-        <div className="project-3">
-          <div className="flex-title">
-            <p>SSENSE SSPHERE</p>
-            <p className="italics">Poster Design for International Panel</p>
-          </div>
-          {/* <img width="100%" src="/ssphere.jpg" /> */}
-        </div>
+        <Project3 />
       </>
     );
   };
@@ -50,7 +45,7 @@ class App extends Component {
         <Header />
         <Project1 />
         <div className="project-2">
-          <div className="flex-title">
+          <div className="block-title">
             <p>NEW PATH – ESSAIE PAS</p>
             <p className="italics">
               Single Future Parlé, Cd Case & Vinyl Cover Design
@@ -62,12 +57,23 @@ class App extends Component {
             <img width="100%" src="/futur-parle.jpg" />
           </div>
         </div>
+        <Project3 />
+      </>
+    );
+  };
+
+  renderProject3 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
         <div className="project-3">
-          <div className="flex-title">
+          <div className="block-title">
             <p>SSENSE SSPHERE</p>
             <p className="italics">Poster Design for International Panel</p>
           </div>
-          {/* <img width="100%" src="/ssphere.jpg" /> */}
+          <img width="100%" src="/ssphere.jpg" />
         </div>
       </>
     );
@@ -79,6 +85,7 @@ class App extends Component {
         <Route exact={true} path="/" render={this.renderHomeScreen} />
         <Route exact={true} path="/project1/" render={this.renderProject1} />
         <Route exact={true} path="/project2/" render={this.renderProject2} />
+        <Route exact={true} path="/project3/" render={this.renderProject3} />
       </BrowserRouter>
     );
   };
