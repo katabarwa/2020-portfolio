@@ -114,4 +114,10 @@ body {
     justify-content: space-between;
     width: 100%;
   }
+  #img50 {
+    width: 60%;
+  }
+  #img60 {
+    width: 60%;
+  }
 }

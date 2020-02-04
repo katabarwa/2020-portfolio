@@ -56,7 +56,7 @@ class App extends Component {
               Single Future Parlé, Cd Case & Vinyl Cover Design
             </p>
           </div>
-          <div className="flex-imgs">
+          <div className="flex-imgs" id="img50">
             <img width="100%" src="/new-path.jpg" />
             <img width="100%" src="/new-path.png" />
             <img width="100%" src="/futur-parle.jpg" />
@@ -78,7 +78,7 @@ class App extends Component {
             <p>SSENSE SSPHERE</p>
             <p className="italics">Poster Design for International Panel</p>
           </div>
-          <div className="flex-imgs">
+          <div className="flex-imgs" id="img60">
             <img width="100%" src="/ssphere.jpg" />
           </div>
         </div>
