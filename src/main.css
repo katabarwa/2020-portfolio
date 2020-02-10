@@ -99,7 +99,40 @@ body {
 .flex-imgs img {
   padding-right: 10px;
 }
+.flex-about {
+  padding: 10px;
+  border-top: black solid 2px;
+  font-family: Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.education span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flex-education {
+  display: flex;
+}
+
+.education {
+  margin-top: 20px;
+}
+
+#margin-left {
+  margin-left: 20px;
+}
+
 @media only screen and (min-width: 900px) {
+  .flex-about {
+    display: flex;
+  }
+  .about {
+    width: 50%;
+  }
+  .education {
+    margin-left: 40px;
+    margin-top: 0px;
+  }
   .projects {
     display: flex;
   }

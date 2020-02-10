@@ -5,7 +5,7 @@ class About extends Component {
   render = () => {
     return (
       <div className="flex-about">
-        <p>
+        <p className="about">
           Jesse Katabarwa is a creative technologist, an art director, type
           designer, illustrator working in the field of visual communication.
           His work has been exhibited as part of the 100 beste plakate
@@ -23,32 +23,34 @@ class About extends Component {
           Selected clients include Arca, Reebok, Drake Scorpio Tour, Virgil
           Abloh, SSENSE and 032c.
         </p>
-        <p>
-          EDUCATION <br />
-          2019 <br />
-          Concordia <br />
-          Decode Mtl <br />
-          <br />
-          2017 <br />
-          A School A Park,
-          <br />
-          International <br />
-          Design Workshop
-        </p>
-        <p>
-          2012 - 2015 <br />
-          Undergraduate,
-          <br />
-          Graphic Design
-          <br />
-          UQAM
-          <br />
-          <br />
-          2013 <br />
-          Architecture
-          <br /> Workshop, BTU <br />
-          in Cottbuss, DE
-        </p>
+        <div className="flex-education">
+          <p className="education">
+            <span>EDUCATION</span> <br />
+            2019 <br />
+            Concordia <br />
+            Decode Mtl <br />
+            <br />
+            2017 <br />
+            A School A Park,
+            <br />
+            International <br />
+            Design Workshop
+          </p>
+          <p className="education" id="margin-left">
+            2012 - 2015 <br />
+            Undergraduate,
+            <br />
+            Graphic Design
+            <br />
+            UQAM
+            <br />
+            <br />
+            2013 <br />
+            Architecture
+            <br /> Workshop, BTU <br />
+            in Cottbuss, DE
+          </p>
+        </div>
       </div>
     );
   };
