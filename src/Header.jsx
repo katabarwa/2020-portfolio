@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 class Header extends Component {
   render = () => {
     return (
-      <Link to={"/"} style={{ textDecoration: "none" }}>
-        <div className="header">
-          <p>JESSE KATABARWA</p>
+      <div className="header">
+        <Link to={"/"} style={{ textDecoration: "none" }}>
+          <p>JESSE KATABARWA</p>{" "}
+        </Link>
+        <Link to={"/about/"} style={{ textDecoration: "none" }}>
           <button>ABOUT</button>
-        </div>
-      </Link>
+        </Link>
+      </div>
     );
   };
 }

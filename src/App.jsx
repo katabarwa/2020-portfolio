@@ -10,12 +10,30 @@ import Project5 from "./Project-5.jsx";
 import Project6 from "./Project-6.jsx";
 import Project7 from "./Project-7.jsx";
 import Project8 from "./Project-8.jsx";
-import About from "./About.jsx"
+import About from "./About.jsx";
 
 class App extends Component {
   renderHomeScreen = () => {
     return <HomeScreen />;
   };
+
+  renderAbout = () => {
+    return (
+      <>
+        <Header />
+        <About />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
+      </>
+    );
+  };
+
   renderProject1 = () => {
     return (
       <>
@@ -238,6 +256,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Route exact={true} path="/" render={this.renderHomeScreen} />
+        <Route exact={true} path="/about/" render={this.renderAbout} />
         <Route exact={true} path="/project1/" render={this.renderProject1} />
         <Route exact={true} path="/project2/" render={this.renderProject2} />
         <Route exact={true} path="/project3/" render={this.renderProject3} />
