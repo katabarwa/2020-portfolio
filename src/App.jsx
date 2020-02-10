@@ -10,6 +10,7 @@ import Project5 from "./Project-5.jsx";
 import Project6 from "./Project-6.jsx";
 import Project7 from "./Project-7.jsx";
 import Project8 from "./Project-8.jsx";
+import About from "./About.jsx"
 
 class App extends Component {
   renderHomeScreen = () => {
