@@ -5,6 +5,11 @@ import Header from "./Header.jsx";
 import Project1 from "./Project-1.jsx";
 import Project2 from "./Project-2.jsx";
 import Project3 from "./Project-3.jsx";
+import Project4 from "./Project-4.jsx";
+import Project5 from "./Project-5.jsx";
+import Project6 from "./Project-6.jsx";
+import Project7 from "./Project-7.jsx";
+import Project8 from "./Project-8.jsx";
 
 class App extends Component {
   renderHomeScreen = () => {
@@ -23,15 +28,6 @@ class App extends Component {
               having no sense of home; forever displaced, forever the other,
               without any sense of self; a blurred identity, a dismantling of
               the body.
-              <br />
-              <br />
-              Diasphora is a research project in exploring the ways that black
-              and east asian identities are interpolated by mainstream
-              narratives. The project represents the essential gap between these
-              narratives and the realms of personal experience, emphasizing the
-              hegemonic gaze upon othered bodies. The gaze becomes a spectacle
-              within itself at the same time that the gaze is physically imposed
-              upon the viewer.
             </p>
           </div>
           <div className="flex-imgs">
@@ -40,6 +36,11 @@ class App extends Component {
         </div>
         <Project2 />
         <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
       </>
     );
   };
@@ -63,6 +64,11 @@ class App extends Component {
           </div>
         </div>
         <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
       </>
     );
   };
@@ -82,10 +88,151 @@ class App extends Component {
             <img width="100%" src="/ssphere.jpg" />
           </div>
         </div>
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
       </>
     );
   };
 
+  renderProject4 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <div className="projects">
+          <div className="block-title">
+            <p>ARCA / TORMENTA</p>
+            <p className="italics">
+              Activation for SSENSE Flagship Store Launch
+            </p>
+            <p className="text">Conception with James Oh.</p>
+          </div>
+          <div className="flex-imgs">
+            <img width="100%" src="/ARCA.jpeg" />
+          </div>
+        </div>
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
+      </>
+    );
+  };
+
+  renderProject5 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <div className="projects">
+          <div className="block-title">
+            <p>REEBOK</p>
+            <p className="italics">
+              Footwear Collaboration
+              <br /> Between SSENSE & Reebok
+            </p>
+            <p className="text">
+              Conception with Victoria Rebello. Photography by Alex Blouin
+            </p>
+          </div>
+          <div className="flex-imgs" id="img60">
+            <img width="100%" src="/reebok.jpg" />
+          </div>
+        </div>
+        <Project6 />
+        <Project7 />
+        <Project8 />
+      </>
+    );
+  };
+
+  renderProject6 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <div className="projects">
+          <div className="block-title">
+            <p>HYPER__</p>
+            <p className="italics">
+              Pamphlet & Website for a Call for Submissions
+            </p>
+          </div>
+          <div className="flex-imgs">
+            <img width="150%" src="/hyper0.png" />
+            <img width="150%" src="/hyper.png" />
+            <img width="100%" src="/hyper1.png" />
+            <img width="100%" src="/hyper2.png" />
+          </div>
+        </div>
+        <Project7 />
+        <Project8 />
+      </>
+    );
+  };
+
+  renderProject7 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <div className="projects">
+          <div className="block-title">
+            <p>DISEMBODIED STILLS</p>
+            <p className="italics">Poster Serie Exploring Color & Form</p>
+          </div>
+          <div className="flex-imgs">
+            <img width="100%" src="/body.jpg" />
+            <img width="100%" src="/body0.jpg" />
+            <img width="100%" src="/body1.jpg" />
+          </div>
+        </div>
+        <Project8 />
+      </>
+    );
+  };
+  renderProject8 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <div className="projects">
+          <div className="block-title">
+            <p>BODY QUALM</p>
+            <p className="italics">
+              Serie that Explore the Gab Between Class and Race Identities
+            </p>
+          </div>
+          <div className="flex-imgs">
+            <img width="100%" src="/bodyqualm.jpg" />
+          </div>
+        </div>
+      </>
+    );
+  };
   render = () => {
     return (
       <BrowserRouter>
@@ -93,6 +240,11 @@ class App extends Component {
         <Route exact={true} path="/project1/" render={this.renderProject1} />
         <Route exact={true} path="/project2/" render={this.renderProject2} />
         <Route exact={true} path="/project3/" render={this.renderProject3} />
+        <Route exact={true} path="/project4/" render={this.renderProject4} />
+        <Route exact={true} path="/project5/" render={this.renderProject5} />
+        <Route exact={true} path="/project6/" render={this.renderProject6} />
+        <Route exact={true} path="/project7/" render={this.renderProject7} />
+        <Route exact={true} path="/project8/" render={this.renderProject8} />
       </BrowserRouter>
     );
   };

@@ -87,7 +87,7 @@ body {
 }
 
 .projects .text {
-  padding-top: 10px;
+  padding: 10px 10px 10px 20px;
   font-size: 15px;
 }
 
@@ -96,13 +96,19 @@ body {
   overflow-x: scroll;
   align-items: center;
 }
-
+.flex-imgs img {
+  padding-right: 10px;
+}
 @media only screen and (min-width: 900px) {
   .projects {
     display: flex;
   }
+  .projects p {
+    font-size: 50px;
+  }
   .projects .text {
     width: 80%;
+    font-size: 17px;
   }
   .block-title {
     width: 100%;
