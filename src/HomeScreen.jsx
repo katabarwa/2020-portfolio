@@ -10,6 +10,7 @@ import Project6 from "./Project-6.jsx";
 import Project7 from "./Project-7.jsx";
 import Project8 from "./Project-8.jsx";
 import Project9 from "./project-9.jsx";
+import Project10 from "./Project-10.jsx";
 
 class HomeScreen extends Component {
   render = () => {
@@ -25,6 +26,7 @@ class HomeScreen extends Component {
         <Project7 />
         <Project8 />
         <Project9 />
+        <Project10 />
       </div>
     );
   };
