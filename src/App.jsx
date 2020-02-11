@@ -11,6 +11,8 @@ import Project6 from "./Project-6.jsx";
 import Project7 from "./Project-7.jsx";
 import Project8 from "./Project-8.jsx";
 import About from "./About.jsx";
+import Project9 from "./project-9.jsx";
+import Project10 from "./Project-10.jsx";
 
 class App extends Component {
   renderHomeScreen = () => {
@@ -30,6 +32,8 @@ class App extends Component {
         <Project6 />
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -60,6 +64,8 @@ class App extends Component {
         <Project6 />
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -88,6 +94,8 @@ class App extends Component {
         <Project6 />
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -112,6 +120,8 @@ class App extends Component {
         <Project6 />
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -139,6 +149,8 @@ class App extends Component {
         <Project6 />
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -169,6 +181,8 @@ class App extends Component {
         <Project6 />
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -198,6 +212,8 @@ class App extends Component {
         </div>
         <Project7 />
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -224,6 +240,8 @@ class App extends Component {
           </div>
         </div>
         <Project8 />
+        <Project9 />
+        <Project10 />
       </>
     );
   };
@@ -249,6 +267,86 @@ class App extends Component {
             <img width="100%" src="/bodyqualm.jpg" />
           </div>
         </div>
+        <Project9 />
+        <Project10 />
+      </>
+    );
+  };
+  renderProject9 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
+        <div className="projects">
+          <div className="block-title">
+            <p>AFILASI</p>
+            <p className="italics">Full Stack Library of Extracted Texts</p>
+            <a
+              href="https://afilasi.herokuapp.com/"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer"
+              }}
+            >
+              <p className="text">https://afilasi.herokuapp.com/</p>
+            </a>
+          </div>
+          <div className="flex-imgs">
+            <a href="https://afilasi.herokuapp.com/">
+              <img width="100%" src="/afilasi.png" />
+            </a>
+          </div>
+          <div className="link"></div>
+        </div>
+        <Project10 />
+      </>
+    );
+  };
+  renderProject10 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
+        <Project9 />
+        <div className="projects">
+          <div className="block-title">
+            <p>SPENDR</p>
+            <p className="italics">Full Stack Market Place</p>
+            <a
+              href="https://www.youtube.com/watch?v=pCwj1fLJXy8"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer"
+              }}
+            >
+              <p className="text">
+                https://www.youtube.com/watch?v=pCwj1fLJXy8
+              </p>
+            </a>
+          </div>
+          <div className="flex-imgs">
+            <a href="https://www.youtube.com/watch?v=pCwj1fLJXy8">
+              <img width="100%" src="/spendr.png" />
+            </a>
+          </div>
+          <div className="link"></div>
+        </div>
       </>
     );
   };
@@ -265,6 +363,8 @@ class App extends Component {
         <Route exact={true} path="/project6/" render={this.renderProject6} />
         <Route exact={true} path="/project7/" render={this.renderProject7} />
         <Route exact={true} path="/project8/" render={this.renderProject8} />
+        <Route exact={true} path="/project9/" render={this.renderProject9} />
+        <Route exact={true} path="/project10/" render={this.renderProject10} />
       </BrowserRouter>
     );
   };

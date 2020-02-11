@@ -121,7 +121,13 @@ body {
 #margin-left {
   margin-left: 20px;
 }
-
+.flex-imgs a img {
+  cursor: pointer;
+}
+.projects .link p {
+  font-size: 15px;
+  cursor: pointer;
+}
 @media only screen and (min-width: 900px) {
   .flex-about {
     display: flex;
