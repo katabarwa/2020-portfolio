@@ -13,6 +13,8 @@ import Project8 from "./Project-8.jsx";
 import About from "./About.jsx";
 import Project9 from "./project-9.jsx";
 import Project10 from "./Project-10.jsx";
+import Project11 from "./Project-11.jsx";
+import Project12 from "./Project-12.jsx";
 
 class App extends Component {
   renderHomeScreen = () => {
@@ -34,6 +36,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -66,6 +70,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -96,6 +102,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -122,6 +130,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -151,6 +161,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -183,6 +195,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -214,6 +228,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -242,6 +258,8 @@ class App extends Component {
         <Project8 />
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -269,6 +287,8 @@ class App extends Component {
         </div>
         <Project9 />
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -307,6 +327,8 @@ class App extends Component {
           <div className="link"></div>
         </div>
         <Project10 />
+        <Project11 />
+        <Project12 />
       </>
     );
   };
@@ -345,11 +367,83 @@ class App extends Component {
               <img width="100%" src="/spendr.png" />
             </a>
           </div>
-          <div className="link"></div>
+        </div>
+        <Project11 />
+        <Project12 />
+      </>
+    );
+  };
+
+  renderProject11 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
+        <Project9 />
+        <Project10 />
+        <div className="projects">
+          <div className="block-title">
+            <p>JAYMI SILK</p>
+            <p className="italics">
+              Illustration and Custom Typeface for Cover Album
+            </p>
+          </div>
+          <div className="flex-imgs">
+            <img width="100%" src="/jaymi.jpg" />
+          </div>
+        </div>
+        <Project12 />
+      </>
+    );
+  };
+
+  renderProject12 = () => {
+    return (
+      <>
+        <Header />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
+        <Project7 />
+        <Project8 />
+        <Project9 />
+        <Project10 />
+        <Project11 />
+        <div className="projects">
+          <div className="block-title">
+            <p>AESTHETIC EXPERIENCE</p>
+            <p className="italics">
+              Book Exploring Form in the Context of Occupying a Liminal Space
+            </p>
+          </div>
+          <div className="flex-imgs">
+            <img width="100%" src="/book0.jpg" />
+            <img width="45.5%" src="/book1.jpg" />
+            <img width="100%" src="/book2.jpg" />
+            <img width="100%" src="/book3.jpg" />
+            <img width="50.9%" src="/book4.jpg" />
+            <img width="100%" src="/book5.jpg" />
+            <img width="100%" src="/book6.jpg" />
+            <img width="100%" src="/book7.jpg" />
+            <img width="45.5%" src="/book8.jpg" />
+            <img width="45.5%" src="/book9.jpg" />
+            <img width="45.5%" src="/book10.jpg" />
+          </div>
         </div>
       </>
     );
   };
+
   render = () => {
     return (
       <BrowserRouter>
@@ -365,6 +459,8 @@ class App extends Component {
         <Route exact={true} path="/project8/" render={this.renderProject8} />
         <Route exact={true} path="/project9/" render={this.renderProject9} />
         <Route exact={true} path="/project10/" render={this.renderProject10} />
+        <Route exact={true} path="/project11/" render={this.renderProject11} />
+        <Route exact={true} path="/project12/" render={this.renderProject12} />
       </BrowserRouter>
     );
   };
