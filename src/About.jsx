@@ -50,6 +50,20 @@ class About extends Component {
             <br /> Workshop, BTU <br />
             in Cottbuss, DE
           </p>
+          <p className="education">
+            <span>CONTACT</span>
+            <br />
+            <a
+              href="mailto:jessekatabarwa@gmail.com"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer"
+              }}
+            >
+              jessekatabarwa@gmail.com
+            </a>
+          </p>
         </div>
       </div>
     );

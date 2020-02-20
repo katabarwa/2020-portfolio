@@ -112,6 +112,7 @@ body {
 
 .flex-education {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .education {

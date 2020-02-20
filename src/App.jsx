@@ -233,7 +233,7 @@ class App extends Component {
             <p>DISEMBODIED STILLS</p>
             <p className="italics">Poster Serie Exploring Color & Form</p>
           </div>
-          <div className="flex-imgs">
+          <div className="flex-imgs" id="img60">
             <img width="100%" src="/body.jpg" />
             <img width="100%" src="/body0.jpg" />
             <img width="100%" src="/body1.jpg" />
